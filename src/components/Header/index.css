@@ -1,0 +1,49 @@
+.nav-ele {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-width: 0.1px;
+  border-color: rgb(220, 218, 218);
+  border-style: solid;
+  padding: 10px;
+}
+.img-ele {
+  height: 50px;
+}
+.trigger-icon {
+  height: 300px;
+}
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: black;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  height: 10px;
+}
+.options {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -190px;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.close-popup {
+  background-color: #ffffff;
+  width: 1900px;
+}
